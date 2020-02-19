@@ -1,0 +1,18 @@
+//* UNIVERSAL BROWSER BASIC RESET AND SETTING THE DEFAULT FONT */
+*, 
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+//* SET ROOT FONT-SIZE */
+html {                                   //* Default font size is 16px - 10px is easier to use. Provide 62.5% of 16px is 10px <-- BETTER ACCESSIBILITY */
+  // font-size: 62,5%;                      //* 1 rem = 10px - easy to do rem calculations when defining sizes -> Better control over responsive sizes */
+  font-size: 10px;
+}
+
+body {
+   box-sizing: border-box; 
+}
